@@ -14,7 +14,7 @@ Codes are partially inspired and adapted from TensorFlow.keras.application Mobil
 
 ## ghost_efficientnetV2.py
 a custom version of efficientnetV2,\
-replaced most Convolutional layers to Ghost Modules introduced in paper\
+replaced most Convolutional layers with Ghost Modules introduced in paper\
 https://arxiv.org/abs/1911.11907 \
 GhostNet: More Features from Cheap Operations\
 by Han et al.\
@@ -23,7 +23,7 @@ Ghost Modules significantly reduces number of parameter in the model
 also, instead of ResNet-C downsampling, this version uses ResNet-D downsampling\
 see paper https://arxiv.org/abs/1812.01187v2 \
 Bag of Tricks for Image Classification with Convolutional Neural Networks\
-by He et al.\
+by He et al.
 
 reduction ratio of SE module is also slightly changed
 
