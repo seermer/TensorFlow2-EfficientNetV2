@@ -1,5 +1,5 @@
 # EfficientNetV2_TensorFlow2
-a TensorFlow2(keras model) implementation of EfficientNetV2
+a TensorFlow2(keras model) implementation of EfficientNetV2\
 This is NOT an official implementation.\
 As official implementation is not yet released by the time I write this code, this model has not been verified and therefore cannot be guarateed to match exactly with official code 
 
