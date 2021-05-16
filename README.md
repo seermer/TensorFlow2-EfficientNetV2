@@ -13,8 +13,8 @@ https://arxiv.org/abs/2104.00298 \
 EfficientNetV2: Smaller Models and Faster Training\
 by Mingxing Tan, Quoc V. Le\
 and official repo\
-https://github.com/google/automl/tree/master/efficientnetv2\
-Codes are partially inspired and adapted from official repo
+https://github.com/google/automl/tree/master/efficientnetv2 \
+Codes are partially inspired and adapted from official repo\
 ~~Codes are partially inspired and adapted from TensorFlow.keras.application MobileNet Code~~
 
 
