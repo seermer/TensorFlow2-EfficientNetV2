@@ -49,6 +49,8 @@ def fused_mbconv(x, in_channels, out_channels, kernel_size, activation, stride=1
 
     x = layers.Conv2D(out_channels, (1, 1) if expansion != 1 else kernel_size, 1, padding="same", use_bias=False)(x)
     x = layers.BatchNormalization(epsilon=1e-5)(x)
+    if expansion == 1:
+        x = layers.Activation(activation)(x)
     if (stride == 1) and (in_channels == out_channels):
         x = tfa.layers.StochasticDepth()([shortcut, x])
     return x
